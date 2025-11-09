@@ -1,0 +1,8 @@
+{
+  "name": "brassabrod-webhook",
+  "version": "1.0.0",
+  "main": "api/hotmart-webhook.js",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  }
+}
