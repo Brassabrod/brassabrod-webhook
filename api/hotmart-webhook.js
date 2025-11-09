@@ -41,7 +41,7 @@ module.exports = async (req, res) => {
     ""
   ).toUpperCase()
 
-  const allow = ["APPROVED","SUBSCRIPTION_ACTIVATED","CONFIRMED","COMPLETE"].includes(event)
+  const allow = ["APPROVED","SUBSCRIPTION_ACTIVATED","CONFIRMED","COMPLETE","PURCHASE_COMPLETE"].includes(event)
   const block = ["CANCELED","CANCELLED","REFUNDED","CHARGEBACK","SUBSCRIPTION_CANCELED","SUBSCRIPTION_EXPIRED","EXPIRED"].includes(event)
 
   try {
